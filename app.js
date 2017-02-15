@@ -8,6 +8,7 @@ $("#inputForm").submit(function(event) {
     uniqueWordCount(words);
   });
 
+
 function numberOfWords(words) {
   $(".js-wordCount").text(words.length);
 }
